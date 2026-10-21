@@ -9,7 +9,7 @@ export default function App() {
       backgroundColor: '#f8fafc', 
       minHeight: '100vh' 
     }}>
-      <h1>Manajemen Alat Laboratorium</h1>
+      <h1>Manajemen Alat Laboratorium - Raden Latif Ma'sum</h1>
       <AlatCard 
         namaAlat="Multimeter Digital" 
         jumlah={5} 
