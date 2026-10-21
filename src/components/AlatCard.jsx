@@ -1,3 +1,5 @@
+
+// Halaman Utama Aplikasi Manajemen Alat Laboratorium
 // Komponen Kartu Alat Laboratorium
 
 export default function AlatCard({ namaAlat, jumlah, kategori, tersedia }) {
