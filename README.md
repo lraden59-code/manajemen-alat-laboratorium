@@ -1,18 +1,19 @@
-# React + Vite
+# Manajemen Alat Laboratorium
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplikasi web berbasis React dan Vite yang dikembangkan untuk memenuhi tugas praktikum Pemrograman Web II. Aplikasi ini berfungsi untuk mengelola data inventaris alat-alat laboratorium.
 
-Currently, two official plugins are available:
+## 📋 Daftar Komponen & Props
+Proyek ini menggunakan komponen modular untuk menampilkan informasi data alat lab:
+- **Komponen**: `AlatCard.jsx`
+- **Props yang Digunakan**:
+  - `namaAlat` (string): Nama perangkat laboratorium (contoh: Multimeter Digital, Modul ESP32 IoT).
+  - `jumlah` (number): Total unit alat yang tersedia.
+  - `kategori` (string): Bidang kelompok alat (Elektronika, Mikrokontroler, Jaringan Komputer).
+  - `tersedia` (boolean): Status ketersediaan alat, dirender secara kondisional (lencana hijau jika tersedia, merah jika dipinjam).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Cara Menjalankan Proyek
+Ikuti langkah-langkah berikut di terminal untuk mengunduh dan menjalankan proyek ini secara lokal:
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Aplikasi Manajemen Alat Laboratorium
-Proyek React berbasis Vite untuk pengelolaan inventaris alat lab.
+1. **Clone repositori:**
+   ```bash
+   git clone [https://github.com/lraden59-code/manajemen-alat-laboratorium.git](https://github.com/lraden59-code/manajemen-alat-laboratorium.git)
