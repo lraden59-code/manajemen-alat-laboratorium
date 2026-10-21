@@ -1,8 +1,14 @@
+// Halaman Utama Aplikasi Manajemen Alat Laboratorium
 import AlatCard from './components/AlatCard.jsx';
 
 export default function App() {
   return (
-    <main style={{ padding: '24px', fontFamily: 'sans-serif' }}>
+    <main style={{ 
+      padding: '24px', 
+      fontFamily: 'sans-serif', 
+      backgroundColor: '#f8fafc', 
+      minHeight: '100vh' 
+    }}>
       <h1>Manajemen Alat Laboratorium</h1>
       <AlatCard 
         namaAlat="Multimeter Digital" 
