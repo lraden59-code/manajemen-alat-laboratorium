@@ -1,3 +1,5 @@
+// Komponen Kartu Alat Laboratorium
+
 export default function AlatCard({ namaAlat, jumlah, kategori, tersedia }) {
   return (
     <article className="kartu-alat" style={{ 
